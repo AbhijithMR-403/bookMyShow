@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow</title>
+    <!-- Getting Style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <!-- part -1 -->
+        <div class="header-logo-section">
+            <!-- BookMyShow logo   -->
+            <div>
+                <img class="bookmyshow-logo-img" src="/image/Logo.png" alt="">
+            </div>
+            <!-- Search Bar -->
+            <div class="search-bar-div">
+                <i class="fa-solid fa-magnifying-glass" style="color: #636363;"></i>
+
+                <input type="text" placeholder="Search for Movies, Event, Play, Sports and Activities" name="Search"
+                    action="/">
+
+            </div>
+            <div class="Rightside-of-logo">
+                <select class="location-header" name="Kochi">
+                    <div class="inner-box-of-location">
+                        <option>Kochi</option>
+                        <option>Delhi</option>
+                        <option>Kolkata</option>
+                        <option>Goa</option>
+                    </div>
+                </select>
+                <button class="Signin-button-header">Sign in</button>
+            </div>
+        </div>
+        <!-- Part -2 -->
+        <div class="category-below-logo">
+            <!-- left side text for header -->
+            <div class="left-side-header">
+                <a class="Below-logo" id="right-header" href="">Movies</a>
+                <a class="Below-logo" id="right-header" href="">Stream</a>
+                <a class="Below-logo" id="right-header" href="">Events</a>
+                <a class="Below-logo" id="right-header" href="">Plays</a>
+                <a class="Below-logo" id="right-header" href="">Sports</a>
+                <a class="Below-logo" id="right-header" href="">Activities</a>
+                <a class="Below-logo" id="right-header" href="">Buzz</a>
+            </div>
+            <div class="right-side-header">
+                <a class="Below-logo" id="left-header" href="">ListYourShow</a>
+                <a class="Below-logo" id="left-header" href="">Corporates</a>
+                <a class="Below-logo" id="left-header" href="">Offers</a>
+                <a class="Below-logo" id="left-header" href="">Gift Cards</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Ads display -->
+    <carousel class="ads-image-main">
+        <div class="main-img">
+            <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1684229973024_summeractivitiesdesktop.jpg">
+        </div>
+        <div class="main-img">
+            <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1684744552965_zakirkhankochidesktop.jpg"
+                alt="">
+        </div>
+        <div class="main-img">
+            <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1684732692170_gcsalebannerdesktop.jpg"
+                alt="">
+        </div>
+    </carousel>
+
+    <main>
+        <section class="first-section">
+            <br>
+            <h2 class="heading-font">Recommended Movies</h2>
+            <!-- Movie names and posters from recommended movies && Different events -->
+            <div class="movies-name-and-img">
+                <!-- 2018 -->
+                <div class="2018-movies-poster ">
+                    <img class="Recommended-movies-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS40LzEwICAzNC42SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00357072-jacnvskvpe-portrait.jpg"
+                        alt="2018 movies">
+                    <div class="movie-name-recommended">2018 (Malayalam)</div>
+                    <div class="movie-genres-recommended">Drama/Thriller</div>
+                </div>
+                <!-- Neymar -->
+                <div class="neymar-movies-poster">
+                    <img class="Recommended-movies-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC45LzEwICAxLjZLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00358905-vuvdrgwxhf-portrait.jpg"
+                        alt="Neymar">
+                    <div class="movie-name-recommended">Neymar</div>
+                    <div class="movie-genres-recommended">Action/Comedy/Family/Romantic</div>
+                </div>
+                <!-- Fast and furious -->
+                <div class="fastandfurious-movies-poster">
+                    <img class="Recommended-movies-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC45LzEwICAzOS43SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00122562-lrytmektpf-portrait.jpg"
+                        alt="Fast and Furious">
+                    <div class="movie-name-recommended">Fast X</div>
+                    <div class="movie-genres-recommended">Action/Adventure/Crime/Thriller</div>
+                </div>
+                <!-- Charles enterprises -->
+                <div class="charles-enterprises">
+                    <img class="Recommended-movies-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC4zLzEwICA1NjIgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00357477-chxjmxrhmc-portrait.jpg"
+                        alt="Charles enterprises">
+                    <div class="movie-name-recommended">Charles enterprises</div>
+                    <div class="movie-genres-recommended">Drama/Thriller</div>
+                </div>
+                <!-- Pachuvum athvutha vilakkum -->
+                <div class="pachuvum-athbutha-vilakkum">
+                    <img class="Recommended-movies-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC45LzEwICA2SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00357769-umdgvfmatu-portrait.jpg"
+                        alt="Pachuvum athbutha vilakkum">
+                    <div class="movie-name-recommended">Pachuvum athvutha vilakkum</div>
+                    <div class="movie-genres-recommended">Drama/Thriller</div>
+                </div>
+            </div>
+
+            <!-- ads long post -->
+            <div class="endless-entertainment">
+                <img class="endless-entertainment-img"
+                    src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/stream-leadin-web-collection-202210241242.png"
+                    alt="ads">
+            </div>
+            <!-- Browse event by catergory -->
+            <div class="event-by-category">
+                <h2 class="heading-font">The Best Of Live Events</h2>
+                <div class="live-event-img-collection">
+                    <img class="live-event-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MzArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/workshop-and-more-web-collection-202211140440.png"
+                        alt="workshops and more">
+                    <img class="live-event-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/kids-zone-collection-202211140440.png"
+                        alt="kid zone">
+                    <img class="live-event-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTUrIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/comedy-shows-collection-202211140440.png"
+                        alt="comedy show">
+                    <img class="live-event-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/music-shows-collection-202211140440.png"
+                        alt="music">
+                    <img class="live-event-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/esports-collection-202211140440.png"
+                        alt="game zone">
+                </div>
+            </div>
+        </section>
+
+        <!-- Premiere-section -->
+        <section class="premiere-section-layout">
+            <div class="premiere-layout-div">
+                <!--  Premiere img -->
+                <img class="premier-headline-img"
+                    src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/premiere-banner-web-collection-202208191200.png"
+                    alt="Premiere">
+                <!-- premiere heading  -->
+                <h2 id="premiere-text-font">Premieres</h2>
+                <p class="below-premiere-text">Brand new release every friday</p>
+                <div class="premier-movies-name-img">
+                    <!-- The Super mario bros -->
+                    <div class="premier-movies-div">
+                        <img class="premier-img"
+                            src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00343051-hfnwzhwlgw-portrait.jpg"
+                            alt="The Super mario bros">
+                        <p class="premier-movie-name">The Super mario bros</p>
+                        <p class="premier-movie-lang">English</p>
+                    </div>
+                    <!-- The Pope's Exocist -->
+                    <div class="premier-movies-div">
+                        <img class="premier-img"
+                            src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00353346-xaqarvfhbp-portrait.jpg"
+                            alt="The Pope's Exocist">
+                        <p class="premier-movie-name">The Super mario bros</p>
+                        <p class="premier-movie-lang">English</p>
+                    </div>
+                    <!-- Fortress -->
+                    <div class="premier-movies-div">
+                        <img class="premier-img"
+                            src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00359938-qafysavngj-portrait.jpg"
+                            alt="Fortress">
+                        <p class="premier-movie-name">The Super mario bros</p>
+                        <p class="premier-movie-lang">English</p>
+                    </div>
+                    <!-- Borrego -->
+                    <div class="premier-movies-div">
+                        <img class="premier-img"
+                            src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00355638-yeyxfpcmwu-portrait.jpg"
+                            alt="Borrego">
+                        <p class="premier-movie-name">The Super mario bros</p>
+                        <p class="premier-movie-lang">English</p>
+                    </div>
+                    <!-- Grace: Season 1 -->
+                    <div class="premier-movies-div">
+                        <img class="premier-img"
+                            src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00353254-wkrfundlxk-portrait.jpg"
+                            alt="Grace: Season 1 ">
+                        <p class="premier-movie-name">The Super mario bros</p>
+                        <p class="premier-movie-lang">English</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Online Streaming Event -->
+        <section class="online-streaming-event section-margin">
+            <br>
+            <h2 class="heading-font">Online Streaming Events</h2>
+            <div class="online-streaming-div">
+                <div>
+                    <img class="program-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAyNiBNYXk%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00358276-bmftzjphpe-portrait.jpg"
+                        alt="2018 movies">
+                    <div class="program-name">International Certified Career Coach - Foundation</div>
+                    <div class="program-type">Drama/Thriller</div>
+                </div>
+                <div>
+                    <img class="program-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAyNiBNYXk%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00358276-bmftzjphpe-portrait.jpg"
+                        alt="2018 movies">
+                    <div class="program-name">International Certified Career Coach - Foundation</div>
+                    <div class="program-type">Drama/Thriller</div>
+                </div>
+                <div>
+                    <img class="program-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAyNyBNYXkgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00305161-egvygvqqwx-portrait.jpg"
+                        alt="2018 movies">
+                    <div class="program-name">International Certified Career Coach - Foundation</div>
+                    <div class="program-type">Drama/Thriller</div>
+                </div>
+                <div>
+                    <img class="program-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAyNiBNYXk%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00358276-bmftzjphpe-portrait.jpg"
+                        alt="2018 movies">
+                    <div class="program-name">International Certified Career Coach - Foundation</div>
+                    <div class="program-type">Drama/Thriller</div>
+                </div>
+                <div>
+                    <img class="program-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-VHVlLCAzMCBNYXk%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00359482-tgjdgjxfmw-portrait.jpg"
+                        alt="2018 movies">
+                    <div class="program-name">International Certified Career Coach - Foundation</div>
+                    <div class="program-type">Drama/Thriller</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Outside Events -->
+        <section class="outdoor-events-section section-margin">
+            <h2 class="heading-font">Outside Events</h2>
+            <div class="online-streaming-div">
+                <div>
+                    <img class="program-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAyNyBNYXkgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00063784-jdwjvmpbsh-portrait.jpg"
+                        alt="Wonderla">
+                    <div class="program-name">Wonderla Amusement park Kochi</div>
+                    <div class="program-type">Wonderla: kochi</div>
+                </div>
+                <div>
+                    <img class="program-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAyIEp1biBvbndhcmRz,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00357779-yxldzlpqwz-portrait.jpg"
+                        alt="Wonderla">
+                    <div class="program-name">Wonderla Amusement park Kochi</div>
+                    <div class="program-type">Wonderla: kochi</div>
+                </div>
+                <div>
+                    <img class="program-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-VGh1LCAyOCBEZWM%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00358308-fdrzxwtqye-portrait.jpg"
+                        alt="Wonderla">
+                    <div class="program-name">Wonderla Amusement park Kochi</div>
+                    <div class="program-type">Wonderla: kochi</div>
+                </div>
+                <div>
+                    <img class="program-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-VGh1LCAyOCBEZWM%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00358308-fdrzxwtqye-portrait.jpg"
+                        alt="Wonderla">
+                    <div class="program-name">Wonderla Amusement park Kochi</div>
+                    <div class="program-type">Wonderla: kochi</div>
+                </div>
+                <div>
+                    <img class="program-img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-VGh1LCAyOCBEZWM%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00358308-fdrzxwtqye-portrait.jpg"
+                        alt="Wonderla">
+                    <div class="program-name">Wonderla Amusement park Kochi</div>
+                    <div class="program-type">Wonderla: kochi</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trending search topic -->
+        <section class="trending-search-topic section-margin">
+            <h2 class="heading-font">Trending Search Topic</h2>
+            <div class="trending-topic-button">
+                <div class="topic-button">
+                    <p class="heading-trending-topic">2018 (Malayalam)</p>
+                    <p class="title-trending-topic">Movies</p>
+                </div>
+
+
+                <div class="topic-button">
+                    <p class="heading-trending-topic">Neymer</p>
+                    <p class="title-trending-topic">Movies</p>
+                </div>
+
+
+                <div class="topic-button">
+                    <p class="heading-trending-topic">The Flash</p>
+                    <p class="title-trending-topic">Movies</p>
+                </div>
+
+
+
+                <div class="topic-button">
+                    <p class="heading-trending-topic">2018</p>
+                    <p class="title-trending-topic">Movies</p>
+                </div>
+
+
+
+                <div class="topic-button">
+                    <p class="heading-trending-topic">The Kerala Story</p>
+                    <p class="title-trending-topic">Movies</p>
+                </div>
+
+
+
+                <div class="topic-button">
+                    <p class="heading-trending-topic">Fast X</p>
+                    <p class="title-trending-topic">Movies</p>
+                </div>
+
+
+
+                <div class="topic-button">
+                    <p class="heading-trending-topic">Ponniyin Selvan - Part 2</p>
+                    <p class="title-trending-topic">Movies</p>
+                </div>
+
+
+
+                <div class="topic-button">
+                    <p class="heading-trending-topic">Spider-man: Across The Spider-Verse</p>
+                    <p class="title-trending-topic">Movies</p>
+                </div>
+
+
+
+                <div class="topic-button">
+                    <p class="heading-trending-topic">Guardians of the Galaxy Vol. 3</p>
+                    <p class="title-trending-topic">Movies</p>
+                </div>
+
+
+
+                <div class="topic-button">
+                    <p class="heading-trending-topic">Pachuvum Athbutha Vilakkum</p>
+                    <p class="title-trending-topic">Movies</p>
+                </div>
+            </div>
+            <br>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-div">
+            <div class="footer-top-layer">
+                <img src="https://in.bmscdn.com/webin/common/icons/hut.svg" alt="hut">
+                <p> List your show</p>
+                <p>Got a show, event, activity or a great experience? Partner with us & get listed on BookMyShow</p>
+                <a class="contact-button">Contact today!</a>
+            </div>
+            
+            <div class="footer-logo">
+                <div class="draw-line-left"></div>
+                <img src="https://in.bmscdn.com/webin/common/icons/logo.svg" alt="bookMyShow Logo">
+                <div class="draw-line-right"></div>
+            </div>
+            <div class="social-media">
+                <i class="fa fa-brands fa-facebook"></i>
+                <i class="fa fa-brands fa-instagram"></i>
+                <i class="fa fa-brands fa-twitter"></i>
+                <i class="fa fa-brands fa-linkedin"></i>
+                <i class="fa fa-brands fa-pinterest"></i>
+                <i class="fa fa-brands fa-youtube"></i>
+            </div>
+            
+        </div>
+    </footer>
+    
+</body>
+
+</html>

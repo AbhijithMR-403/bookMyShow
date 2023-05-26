@@ -1,0 +1,385 @@
+body {
+    margin: 0;
+    background-color: #ebebeb;
+    overflow: scroll;
+    
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* ! Inside Header tag */
+/* *Part -1  */
+.header-logo-section {
+    width: 100%;
+    height: 64px;
+    background-color: #333545;
+    display: flex;
+    /* flex-direction: row; */
+    
+}
+
+.bookmyshow-logo-img {
+    width: 181px;
+    height: auto;
+    margin-left: 29px;
+    margin-top: -17px;
+    margin-right: 19px;
+}
+
+.search-bar-div {
+    margin-top: 14px;
+    margin-left: -33px;
+    background-color: white;
+    margin-bottom: 14px;
+    border-radius: 4px;
+}
+
+.search-bar-div input {
+    color: #f84464;
+    font-family: roboto,sans-serif;
+    margin-top: 8px;
+    font-size: 14px;
+    margin-left: 9px;
+    border: none;
+    width: 509px;
+    outline: none;
+}
+
+.fa-magnifying-glass {
+    margin-left: 12px;
+}
+
+.location-header {
+    font-family: sans-serif;
+    background-color: #333545;
+    color: #cfbfbf;
+    margin-top: 16px ;
+    width: 68px;
+    padding: 6px;
+    overflow: auto;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+}
+
+.Rightside-of-logo {
+    margin-left: 355px;
+    margin-top: 1px;
+}
+
+.Signin-button-header {
+    font-family: Roboto, sans-serif;
+    background-color: #f84464;
+    line-height: 22px;
+    color: white;
+    border-radius: 7px;
+    margin-left: 13px;
+    border-color: #f84464;
+    width: 69px;
+    outline: none;
+}
+
+/* *part-2 */
+
+.category-below-logo {
+    height: 40px;
+    width: 100%;
+    background-color: #1f2533;
+    display: flex;
+    flex-direction: row;  
+}
+
+.left-side-header{
+    margin-left: 63px;
+    display: flex;
+    flex-direction: row;    
+}
+.right-side-header{
+    margin-left: 508px;
+    display: flex;
+    flex-direction: row; 
+}
+
+.Below-logo {
+    font-family: Roboto,sans-serif;
+    outline: none;
+    text-decoration: none;
+    margin-top: 12px;
+    font-weight: normal;
+    margin-right:20.5px;
+}
+
+#left-header{
+    margin-left: 3.5px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+#right-header{
+    color: #cccccc;
+    font-size: 14px;
+}
+
+/* !Main  */
+
+/* *Ads section */
+.ads-image-main {
+    display: flex;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.main-img{
+    margin: 10px 10px 10px 10px;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* *Recommended movies  */
+
+main {
+    background-color: #f5f5f5;
+}
+
+.first-section{
+    margin-left: 63px;
+    margin-bottom: 63px;
+}
+
+/* For headings  */
+.heading-font {
+    font-family: roboto,sans-serif;
+    font-size:22px;
+    letter-spacing:normal;
+    color: #333333;
+    margin-bottom: 7px;
+}
+
+.movies-name-and-img {
+    margin-left: -10px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+/* The img font(like movies img ,music program img ,etc...) */
+.Recommended-movies-img, .program-img {
+    height: auto;
+    width: 225px;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+
+.Recommended-movies-img,.program-img:hover {
+    margin-top: -10px;
+}
+
+.movie-name-recommended, .program-name{
+    font-family: sans-serif;
+    margin: 0px 0px 4px;
+    font-size: 18px;
+    color: #222222;
+    font-weight: 700;
+    line-height: 1.33;
+}
+
+/* The naming class (like movies name ,music program name ,etc...)  */
+.movie-genres-recommended, .program-type {
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.endless-entertainment {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.endless-entertainment-img{
+    width: 95%;
+    height: 107px;
+}
+
+/* The best of live event */
+.live-event-img{
+    width: 222px;
+    height: auto;
+    margin-right: 28px;
+    border-radius: 6px;
+}
+
+/* premiere section  */
+.premiere-section-layout{
+    width:100%;
+    height: auto;
+    background-color: #2b3148;
+}
+
+.premiere-layout-div{
+    margin-top: 63px;
+    margin-left: 63px;
+}
+
+.premier-headline-img{
+    margin-top: 17px;  
+    height: auto;
+    width: 95%;
+}
+#premiere-text-font{
+    color: white;
+    font-family: roboto;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+}
+.below-premiere-text{
+    margin-top: -18px;
+    font-family: roboto;
+    font-size: 14px;
+    /* line-height: 20px; */
+    color: #ffffff;
+}
+.premier-movies-name-img{
+    display: flex;   
+    justify-content: space-between;
+    margin-right: 63px;
+}
+.premier-img{
+    width: 222px;
+    border-radius: 5px;
+    height: auto;
+}
+.premier-movie-name{
+    font-family: roboto;
+    color: white;
+    line-height: 21px;
+    font-size: 18px;
+    text-align: start;
+    /* font-weight: 600; */
+}
+.premier-movie-lang{
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.section-margin{
+    margin-left:63px;
+}
+.online-streaming-div{
+    display: flex ;
+    flex-direction: row; 
+}
+.outdoor-events-section{
+    background-color: #f2f5f9;
+}
+.trending-topic-button{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+}
+.trending-search-topic{
+    
+}
+.topic-button{
+    position: relative;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 4px;
+    padding: 14px 45px 12px 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+}
+.heading-trending-topic{
+    margin: 0px 0px 2px;
+    white-space: nowrap;
+    color: rgb(248, 68, 100);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;   
+}
+.title-trending-topic{
+    margin: 0px 0px 2px;
+    color: rgb(102, 102, 102);
+    font-family: Roboto;
+    font-size: 14px;
+}
+footer{
+    background-color: rgb(49, 48, 53);
+    height: auto;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.footer-div{
+    margin-left: 65px;
+}
+.footer-top-layer{
+    display: flex;
+    padding-top: 18px;
+    align-items: center;
+}
+.footer-top-layer :nth-child(1){
+    
+}
+.footer-top-layer :nth-child(2){
+    flex: 0 0 auto;
+    margin: 0px 16px 0px 4px;
+    font-weight: 600;
+    font-family: roboto;
+    color: white;
+    font-size: 16px;
+}
+.footer-top-layer :nth-child(3){
+    flex: 0 0 auto;
+    margin: 0px 16px 0px 4px;
+    font-weight: 400;
+    font-family: roboto;
+    color: white;
+    font-size: 16px;
+    margin-right: 150px;
+}
+.contact-button{
+    margin: auto;
+    flex: 0 0 auto;
+    background-color: rgb(236, 94, 113);
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.footer-logo{
+    margin-top: 100px;
+    padding-bottom: 80px;
+    display: flex;
+}
+.footer-logo :nth-child(2){
+    margin-top: -15px;
+}
+.draw-line-left{
+        /* flex: 1 1 0%; */
+    height: 1px;
+    width: 45%;
+    background: rgb(93, 93, 95);
+}
+.draw-line-right{
+    height: 1px;
+    width: 35%;
+    background: rgb(93, 93, 95);
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    
+}
+.fa{
+    color:white;
+    size: 10px;
+    margin-left: 40px;
+    font-size: 25px;
+}
