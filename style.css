@@ -22,16 +22,13 @@ body::-webkit-scrollbar {
 }
 
 .bookmyshow-logo-img {
-    width: 181px;
-    height: auto;
-    margin-left: 29px;
-    margin-top: -17px;
+    margin-left: 68px;
+    margin-top: 17px;
     margin-right: 19px;
 }
 
 .search-bar-div {
     margin-top: 14px;
-    margin-left: -33px;
     background-color: white;
     margin-bottom: 14px;
     border-radius: 4px;
