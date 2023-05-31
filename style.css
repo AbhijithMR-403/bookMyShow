@@ -1,3 +1,6 @@
+*{
+    font-family: roboto;
+}
 body {
     margin: 0;
     background-color: #ebebeb;
@@ -15,7 +18,6 @@ body::-webkit-scrollbar {
     height: 64px;
     background-color: #333545;
     display: flex;
-    /* flex-direction: row; */
     
 }
 
@@ -55,9 +57,7 @@ body::-webkit-scrollbar {
     background-color: #333545;
     color: #cfbfbf;
     margin-top: 16px ;
-    width: 68px;
     padding: 6px;
-    overflow: auto;
     font-weight: bolder;
     outline: none;
     border: none;
@@ -65,7 +65,6 @@ body::-webkit-scrollbar {
 
 .Rightside-of-logo {
     margin-left: 355px;
-    margin-top: 1px;
 }
 
 .Signin-button-header {
@@ -155,7 +154,6 @@ main {
 .heading-font {
     font-family: roboto,sans-serif;
     font-size:22px;
-    letter-spacing:normal;
     color: #333333;
     margin-bottom: 7px;
 }
@@ -168,14 +166,14 @@ main {
 }
 
 /* The img font(like movies img ,music program img ,etc...) */
-.Recommended-movies-img, .program-img {
+.program-img {
     height: auto;
     width: 225px;
     border-radius: 7px;
     transition: 0.5s;
 }
 
-.Recommended-movies-img,.program-img:hover {
+.program-img:hover {
     margin-top: -10px;
 }
 
@@ -232,15 +230,12 @@ main {
 }
 #premiere-text-font{
     color: white;
-    font-family: roboto;
     font-size: 22px;
     letter-spacing: 1.5px;
 }
 .below-premiere-text{
     margin-top: -18px;
-    font-family: roboto;
     font-size: 14px;
-    /* line-height: 20px; */
     color: #ffffff;
 }
 .premier-movies-name-img{
@@ -254,7 +249,6 @@ main {
     height: auto;
 }
 .premier-movie-name{
-    font-family: roboto;
     color: white;
     line-height: 21px;
     font-size: 18px;
@@ -281,12 +275,9 @@ main {
     flex-direction: row ;
     flex-wrap: wrap;
 }
-.trending-search-topic{
-    
-}
+
 .topic-button{
-    position: relative;
-    height: 100%;
+    /* height: 100%; */
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(238, 238, 238);
     border-radius: 4px;
@@ -296,17 +287,13 @@ main {
 }
 .heading-trending-topic{
     margin: 0px 0px 2px;
-    white-space: nowrap;
     color: rgb(248, 68, 100);
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.25;   
 }
 .title-trending-topic{
     margin: 0px 0px 2px;
     color: rgb(102, 102, 102);
-    font-family: Roboto;
     font-size: 14px;
 }
 footer{
@@ -323,14 +310,10 @@ footer{
     padding-top: 18px;
     align-items: center;
 }
-.footer-top-layer :nth-child(1){
-    
-}
 .footer-top-layer :nth-child(2){
     flex: 0 0 auto;
     margin: 0px 16px 0px 4px;
     font-weight: 600;
-    font-family: roboto;
     color: white;
     font-size: 16px;
 }
@@ -338,7 +321,6 @@ footer{
     flex: 0 0 auto;
     margin: 0px 16px 0px 4px;
     font-weight: 400;
-    font-family: roboto;
     color: white;
     font-size: 16px;
     margin-right: 150px;
@@ -362,7 +344,6 @@ footer{
     margin-top: -15px;
 }
 .draw-line-left{
-        /* flex: 1 1 0%; */
     height: 1px;
     width: 45%;
     background: rgb(93, 93, 95);
